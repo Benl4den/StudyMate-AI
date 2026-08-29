@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IDE and operating system
+.DS_Store
+.idea/
+*.iml
+.vscode/settings.json
+
+# Logs and local uploads
+*.log
+uploads/
+tmp/
